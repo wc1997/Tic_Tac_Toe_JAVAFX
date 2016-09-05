@@ -1,0 +1,32 @@
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+<VBox fx:controller="sample.Controller"
+      xmlns:fx="http://javafx.com/fxml" alignment="center" >
+    <fx:define>
+        <Font fx:id="FONT" size="18"></Font>
+    </fx:define>
+
+    <HBox alignment="CENTER">
+        <Button fx:id="a1" text="" prefWidth="100" prefHeight="100" onAction="#processClick"> </Button>
+        <Button fx:id="a2" text="" prefWidth="100" prefHeight="100" onAction="#processClick"> </Button>
+        <Button fx:id="a3" text="" prefWidth="100" prefHeight="100" onAction="#processClick"> </Button>
+    </HBox>
+    <HBox alignment="CENTER">
+        <Button fx:id="b1" text="" prefWidth="100" prefHeight="100" onAction="#processClick"> </Button>
+        <Button fx:id="b2" text="" prefWidth="100" prefHeight="100" onAction="#processClick"> </Button>
+        <Button fx:id="b3" text="" prefWidth="100" prefHeight="100" onAction="#processClick"> </Button>
+    </HBox>
+    <HBox alignment="CENTER">
+        <Button fx:id="c1" text="" prefWidth="100" prefHeight="100" onAction="#processClick"> </Button>
+        <Button fx:id="c2" text="" prefWidth="100" prefHeight="100" onAction="#processClick"> </Button>
+        <Button fx:id="c3" text="" prefWidth="100" prefHeight="100" onAction="#processClick"> </Button>
+    </HBox>
+
+
+        <Button fx:id="reset" text="RESET"   prefHeight="3" onAction="#resetGame" ></Button>
+        <TextField fx:id="player" text="Player 1 - X" prefHeight="3"></TextField>
+
+
+</VBox>
